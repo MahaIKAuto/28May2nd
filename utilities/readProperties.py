@@ -1,7 +1,6 @@
-
 import configparser
 config=configparser.RawConfigParser()
-config.read("C://Users//user//PycharmProjects//Complete Project//Configurations//config.ini")
+config.read("E://Selenium Python Notes//Complete Project//Complete Project//Configurations//config.ini")
 
 class ReadConfig:
 

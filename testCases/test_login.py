@@ -3,6 +3,7 @@ from selenium import webdriver
 from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 
+
 class Test_001_Login:
 
     baseURL = ReadConfig.getApplicationURL()

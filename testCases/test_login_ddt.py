@@ -6,9 +6,9 @@ from utilities import XLUtils
 import time
 
 
-class Test_002_DDT_Login():
+class Test_002_DDT_Login:
     baseURL = ReadConfig.getApplicationURL()
-    path = "C://Users//user//PycharmProjects//Complete Project//TestData/LoginData.xlsx"
+    path = "E:/Selenium Python Notes/Complete Project/Complete Project/TestData/LoginData.xlsx"
 
 
     @pytest.mark.regression

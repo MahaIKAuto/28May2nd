@@ -28,8 +28,9 @@ class AddCustomer:
         self.driver = driver
 
     def clickOnCustomersMenu(self):
-        self.lnkCustomers_menu_xpath = self.driver.find_element_by_xpath(self.lnkCustomers_menu_xpath)
-        self.driver.execute_script("arguments[0].click();", self.lnkCustomers_menu_xpath)
+        # self.lnkCustomers_menu_xpath = self.driver.find_element_by_xpath(self.lnkCustomers_menu_xpath)
+        # self.driver.execute_script("arguments[0].click();", self.lnkCustomers_menu_xpath)
+        self.driver.find_element_by_xpath(self.lnkCustomers_menu_xpath).click()
 
     def clickOnCustomersMenuItem(self):
         self.lnkCustomers_menuitem_xpath=self.driver.find_element_by_xpath(self.lnkCustomers_menuitem_xpath)
