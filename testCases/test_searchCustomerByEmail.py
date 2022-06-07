@@ -32,5 +32,3 @@ class Test_SearchCustomerByEmail_004:
         status=searchcust.searchCustomerByEmail("victoria_victoria@nopCommerce.com")
         self.driver.close()
         assert True==status
-
-

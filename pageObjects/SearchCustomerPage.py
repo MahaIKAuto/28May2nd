@@ -42,6 +42,3 @@ class SearchCustomer():
               flag = True
               break
         return flag
-
-
-
